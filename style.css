@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+.main{
+
+margin: 0px;
+padding: 0px;
+
+}
+.navbar-nav{
+
+    position: absolute;
+    right: 0px;
+    margin: 50px;
+    font-size: 23px;
+    font-family: 'Arvo', serif;
+}
+
+.navbar-brand{
+
+    height: 160px;
+    position: relative;
+    right: 50px;
+    top: 4px;
+}
+.navbar{
+    background-color: slategrey;
+    height: 100px;
+}
+.card{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    left: 80px;
+    font-family: 'Arvo', serif;
+    background-color: slategrey;
+    text-align: center;
+}
+.profile{
+    height: 1100px;
+    position: relative;
+    margin-left: 230px;
+    
+}
+.profile-disc{
+    font-family: 'Arvo', serif;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    
+    bottom: 40px;
+
+}
+.profile-h6{
+
+    font-size: 40px;
+}
+.Social-section{
+    height: 300px;
+    font-family: 'Arvo', serif;
+    background-color: slategrey;
+    border-radius: 20px;
+
+}
+.Social-h1{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.Social-p{
+    text-align: center;
+    padding-top: 150px;
+}
+.fa-brands{
+    font-size: 40px;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    left: 650px;
+    top: 50px;
+}
+@media(min-width:320px){
+    .navbar-toggler{
+       
+    }
+    .navbar-nav{
+       
+    }
+    .navbar-brand{
+        
+    }
+    .navbar{
+
+    }
+    .card{
+
+    }
+    .profile{
+
+    }
+    .profile-disc{
+
+    }
+}
